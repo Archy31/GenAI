@@ -7,7 +7,7 @@ class ChatBot:
         self.lang_lvl = lang_lvl
         self.input_txt = input_txt
 
-        self.OPENAI_KEY = "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"
+        self.OPENAI_KEY = "" # Here must be ChatGPT API token.
 
         self.templates = """
                 Assistant is a large language model trained by OpenAI.
